@@ -7,7 +7,6 @@
 //         return c[0];
 // };
 // round(a,b)
-
 const a =prompt("Enter your Number :")
 const b = prompt("How many digits does it show..?")
 const splitOn = (slicable, ...indices) =>
@@ -18,4 +17,4 @@ round =(a,b) => {
         c[0].concat(c[1])  
         return c[0];
 };
-round(a,b)
+round(a,b);
